@@ -6,7 +6,7 @@ Fetch Statistics
 ================
 \\n# fetches attempted:
 \n# fetches succeeded:
-\n# fetches aborted:
+\\n# fetches aborted:
 \n# fetches failed:
 
 Outgoing URLs:
