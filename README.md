@@ -4,7 +4,7 @@ Uses latimes.com as a seed site to produce the following statistics:
 
 Fetch Statistics
 ================
-\n# fetches attempted:
+\\n# fetches attempted:
 \n# fetches succeeded:
 \n# fetches aborted:
 \n# fetches failed:
