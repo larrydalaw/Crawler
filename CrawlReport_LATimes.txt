@@ -1,0 +1,42 @@
+Name: Shraddha Ravishankar
+USC ID: 4503241913
+News site crawled: latimes.com
+
+Fetch Statistics
+================
+# fetches attempted:19998
+# fetches succeeded:19369
+# fetches aborted: 0
+# fetches failed: 629
+
+Outgoing URLs:
+==============
+Total URLs extracted: 1238809
+# unique URLs extracted: 155511
+# unique URLs within News Site: 136028
+# unique URLs outside News Site: 19483
+
+Status Codes:
+=============
+200 OK: 19369
+301 Moved Permanently: 600
+302 Moved Temporarily: 8
+403 Forbidden: 2
+404 Not Found: 7
+429 Too many requests: 1
+503 Service unavailable: 11
+
+File Sizes:
+===========
+< 1KB: 6
+1KB ~ <10KB: 7
+10KB ~ <100KB: 2647
+100KB ~ <1MB: 16645
+>= 1MB: 64
+
+Content Types:
+==============
+text/html: 19346
+image/gif: 3
+image/jpeg: 7
+image/png: 13
