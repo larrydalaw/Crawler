@@ -4,10 +4,10 @@ Uses latimes.com as a seed site to produce the following statistics:
 
 Fetch Statistics
 ================
-# fetches attempted:
-# fetches succeeded:
-# fetches aborted:
-# fetches failed:
+\# fetches attempted:
+\# fetches succeeded:
+\# fetches aborted:
+\# fetches failed:
 
 Outgoing URLs:
 ==============
