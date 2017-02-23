@@ -1,5 +1,4 @@
-Name: Shraddha Ravishankar
-USC ID: 4503241913
+Sample output
 News site crawled: latimes.com
 
 Fetch Statistics
