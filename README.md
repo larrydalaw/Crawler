@@ -1,41 +1,9 @@
 # Crawler
 Java crawler implementation using crawler4j
-Uses latimes.com as a seed site to produce the following statistics:
+Uses latimes.com as a seed site to produce statistics. 
+Sample output in Crawlreport_LAtimes.txt
 
-Fetch Statistics
-================
-\# fetches attempted:
-\# fetches succeeded:
-\# fetches aborted:
-\# fetches failed:
-
-Outgoing URLs:
-==============
-Total URLs extracted:
-\# unique URLs extracted:
-\# unique URLs within News Site:
-\# unique URLs outside News Site:
-
-Status Codes:
-=============
-200 OK:
-301 Moved Permanently:
-401 Unauthorized:
-403 Forbidden:
-404 Not Found:
-
-File Sizes:
-===========
-< 1KB:
-1KB ~ <10KB:
-10KB ~ <100KB:
-100KB ~ <1MB:
->= 1MB:
-
-Content Types:
-==============
-text/html:
-image/gif:
-image/jpeg:
-image/png:
-application/pdf:
+Generates 3 csv files:
+1.Fetch : All visited sites with the Http status codes
+2.Visit : Data of all the websites successfully crawled
+3.Urls : All outgoing links with tags as OK(belonging to domain latimes.com) or N_OK(not belonging to latimes.com)
