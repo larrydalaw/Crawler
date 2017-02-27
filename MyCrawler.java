@@ -37,12 +37,7 @@ public class MyCrawler extends WebCrawler {
 			 /**
 			 * This method receives two parameters. The first parameter is the page
 			 * in which we have discovered this new url and the second parameter is
-			 * the new url. You should implement this function to specify whether
-			 * the given url should be crawled or not (based on your crawling logic).
-			 * In this example, we are instructing the crawler to ignore urls that
-			 * have css, js, git, ... extensions and to only accept urls that start
-			 * with "http://www.viterbi.usc.edu/". In this case, we didn't need the
-			 * referringPage parameter to make the decision.
+			 * the new url. 
 			 */
 			 @Override
 			 public boolean shouldVisit(Page referringPage, WebURL url) {
@@ -146,54 +141,7 @@ public class MyCrawler extends WebCrawler {
 			  System.out.println("Status Code: " + statuscode);
 			  
 			  FileWriter pw;
-			/*try {
-				File f=new File("/Users/shraddharavishankar/Documents/USC Notes/IR/data/excelfiles/fetch_LA_times.csv");
-				if(f.exists()){
-					pw = new FileWriter(f.getAbsoluteFile(),true);
-					StringBuilder sb = new StringBuilder();
-					sb.append(url);
-			        sb.append(',');
-			        sb.append(statuscode);
-			        sb.append('\n');
-			        pw.write(sb.toString());
-			        pw.flush();
-			        pw.close();
-				}
-				else{
-					pw = new FileWriter(f);
-					StringBuilder sb = new StringBuilder();
-					 sb.append("URL");
-				     sb.append(',');
-				     sb.append("Status Code");
-				     sb.append('\n');
-				     	sb.append(url);
-				        sb.append(',');
-				        sb.append(statuscode);
-				        sb.append('\n');
-				     pw.write(sb.toString());
-				     pw.flush();
-				     pw.close();
-				}
-				
-				
-		       
-
-		        
-		        
-		      
-
-			} catch (FileNotFoundException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}*/
-			  
-			  
-			  //checks for the type of status code
-			  //statusCodeClassification(statuscode);
-			  //handlePageStatusCode(page.getWebURL(), page.getStatusCode(), statusDescription);
+			
 			  
 			  int filesize=page.getContentData().length;
 			  System.out.println("File size is: "+ filesize);
